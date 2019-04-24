@@ -2,18 +2,6 @@
 	background-color: #7af9dc;
 }
 
-/* Main Color
------------------------------------------------------------------------------ */
-.main-color { color: #d32f2f; }
-
-
-
-/* Background Colors
-============================================================================= */
-/* Main Background
------------------------------------------------------------------------------ */
-.main-background-color,
-.main-background-color * {
-    color: #ffffff !important;
+body {
+  background-color: lightblue;
 }
-.main-background-color { background-color: #d32f2f !important; }
