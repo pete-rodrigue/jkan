@@ -12,8 +12,8 @@ resources:
     format: csv
   - name: Metadata
     url: 'http://metadata.phila.gov/#home/datasetdetails/57a0e1d5aa8882104134830e/representationdetails/57a0e1d6aa88821041348312/'
-    format: webpage
-license: ''
+    format: api
+license: 'Philadelphia open data license'
 category:
   - Environment
 maintainer: Chris Park
