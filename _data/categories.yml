@@ -9,10 +9,10 @@
   logo: /img/categories/economy.svg
   logo_credit: Vectors Market from the Noun Project
   featured: true
-- name: Education
-  logo: /img/categories/education.svg
-  logo_credit: Sergey Patutin from the Noun Project
-  featured: true
+# - name: Education
+#   logo: /img/categories/education.svg
+#   logo_credit: Sergey Patutin from the Noun Project
+#   featured: true
 #- name: Elections / Politics
 #  logo: /img/categories/elections-politics.svg
 #  logo_credit: Jean Soo from the Noun Project
@@ -46,7 +46,7 @@
   logo: /img/categories/transportation.svg
   logo_credit: Dmitry Baranovskiy from the Noun Project
   featured: true
-- name: Uncategorized
-  logo: /img/categories/uncategorized.svg
-  logo_credit: Edward Boatman from the Noun Project
-  featured: true
+# - name: Uncategorized
+#   logo: /img/categories/uncategorized.svg
+#   logo_credit: Edward Boatman from the Noun Project
+#   featured: true
