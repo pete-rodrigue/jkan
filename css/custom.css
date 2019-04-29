@@ -8,7 +8,7 @@
 } */
 
 
-body {
+body.home {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
