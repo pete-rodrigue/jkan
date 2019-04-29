@@ -75,17 +75,17 @@ dataset {
   text-align: center;
   border: none;
   padding: 10px;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 .homepage-categories .thumbnail img {
   height: 80px;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 .homepage-categories a {
   color: #000;
-  opacity: 0.75;
+  opacity: 0.0;
 }
 
 .theme-gallery .panel {
