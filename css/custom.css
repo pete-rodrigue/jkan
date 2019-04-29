@@ -7,8 +7,8 @@
   color: #515151;
 } */
 
-
-body.jkan {
+/* Only use custom dynamic background on homepage*/
+body.index {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
