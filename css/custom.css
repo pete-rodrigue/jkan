@@ -8,7 +8,7 @@
 } */
 
 /* Only use custom dynamic background on homepage*/
-body.index {
+body.myhomepage {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
