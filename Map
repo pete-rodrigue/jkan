@@ -5,7 +5,7 @@ permalink: /Map/
 ---
 {% include breadcrumbs.html %}
 
-<html>
+
 <head>
   <!-- Plotly.js -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -47,4 +47,4 @@ Plotly.plot('myDiv', data, layout, {showSendToCloud: true})
   </script>
 </div>
 </body>
-</html>
+
