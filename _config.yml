@@ -31,6 +31,9 @@ collections:
   organizations:
     output: true
     permalink: /organizations/:path/
+  Map:
+    output: true
+    permalink: /Map/:path/
 
 # Collections (cont'd)
 defaults:
