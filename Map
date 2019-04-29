@@ -5,81 +5,46 @@ permalink: /Map/
 ---
 {% include breadcrumbs.html %}
 
-<!DOCTYPE html>
 <html>
-        <head>
-        <style>
-        html, body {
-          height: 100%;
-          margin: 0;
-        }
+<head>
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+<!-- Plotly chart will be drawn inside this DIV -->
+<div id="myDiv"></div>
+  <script>
+  var data = [{
+  type:'scattermapbox',
+  lat:['45.5017'],
+  lon:['-73.5673'],
+  mode:'markers',
+  marker: {
+    size:14
+  },
+  text:['Montreal']
+}]
 
-        .full-height {
-          height: 100%;
-          background: yellow;
-        }
-        </style>
-<!-- Plotly.js -->
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        </head>
+var layout = {
+  autosize: true,
+  hovermode:'closest',
+  mapbox: {
+    bearing:0,
+    center: {
+      lat:45,
+      lon:-73
+    },
+    pitch:0,
+    zoom:5
+  },
+}
 
-        <body>
-        <!-- Plotly chart will be drawn inside this DIV -->
-        <div class="full-height," id="myDiv">
-        <script>
-       
-     var data = [{
-        type: 'scattergeo',
-        mode: 'markers+text',
-        text: [
-            'Philadelphia'
-        ],
-        lon: [-75.169596],
-        lat: [39.965339],
-        marker: {
-            size: 7,
-            color: ['#bebada'],
-            line: {
-                width: 1
-            }
-        },
-        name: 'Where is Philadelphia?',
-        textposition: ['top right'],
-    }];
+Plotly.setPlotConfig({
+  mapboxAccessToken: 'pk.eyJ1IjoiZXRwaW5hcmQiLCJhIjoiY2luMHIzdHE0MGFxNXVubTRxczZ2YmUxaCJ9.hwWZful0U2CQxit4ItNsiQ'
+})
 
-    var layout = {
-        title: 'Where is Philadelphia?',
-        font: {
-            family: 'Droid Serif, serif',
-            size: 6
-        },
-        titlefont: {
-            size: 16
-        },
-        geo: {
-            scope: 'north america',
-            resolution: 50,
-            lonaxis: {
-                'range': [-130, -55]
-            },
-            lataxis: {
-                'range': [40, 70]
-            },
-            showrivers: true,
-            rivercolor: '#fff',
-            showlakes: true,
-            lakecolor: '#fff',
-            showland: true,
-            landcolor: '#EAEAAE',
-            countrycolor: '#d3d3d3',
-            countrywidth: 1.5,
-            subunitcolor: '#d3d3d3'
-        }
-    };
-
-    Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
-
-        </script>
-        </div>
-        </body>
+Plotly.plot('myDiv', data, layout, {showSendToCloud: true})
+  </script>
+</div>
+</body>
 </html>
