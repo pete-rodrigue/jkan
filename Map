@@ -5,6 +5,7 @@ permalink: /Map/
 ---
 
 
+<html>
 <head>
   <!-- Plotly.js -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -15,13 +16,13 @@ permalink: /Map/
   <script>
   var data = [{
   type:'scattermapbox',
-  lat:['45.5017'],
-  lon:['-73.5673'],
+  lat:['39.985555'],
+  lon:['-75.162163'],
   mode:'markers',
   marker: {
     size:14
   },
-  text:['Montreal']
+  text:['Philadelphia']
 }]
 
 var layout = {
@@ -30,8 +31,8 @@ var layout = {
   mapbox: {
     bearing:0,
     center: {
-      lat:45,
-      lon:-73
+      lat:40,
+      lon:-75
     },
     pitch:0,
     zoom:5
@@ -46,4 +47,4 @@ Plotly.plot('myDiv', data, layout, {showSendToCloud: true})
   </script>
 </div>
 </body>
-
+</html>
