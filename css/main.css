@@ -75,10 +75,12 @@ dataset {
   text-align: center;
   border: none;
   padding: 10px;
+  opacity: 0.5;
 }
 
 .homepage-categories .thumbnail img {
   height: 80px;
+  opacity: 0.5;
 }
 
 .homepage-categories a {
