@@ -3,7 +3,6 @@ title: Map
 layout: default
 permalink: /Map/
 ---
-{% include breadcrumbs.html %}
 
 
 <head>
