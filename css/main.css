@@ -84,8 +84,7 @@ dataset {
 }
 
 .homepage-categories a {
-  color: #00FFFFFF;
-  opacity: 0.0;
+  color: #000;
 }
 
 .theme-gallery .panel {
