@@ -76,17 +76,18 @@ dataset {
   border: none;
   padding: 10px;
   opacity: 0.9;
-  background-color: #00fff;
+  background-color: #ffffff00;
 }
 
 .homepage-categories .thumbnail img {
   height: 80px;
   opacity: 0.9;
+  background-color: #ffffff00;
 }
 
 .homepage-categories a {
   color: #000000;
-  background-color: #00fff;
+  background-color: #ffffff00;
 }
 
 .theme-gallery .panel {
