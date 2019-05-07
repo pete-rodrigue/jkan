@@ -34,6 +34,9 @@ collections:
   Map:
     output: true
     permalink: /Map/:path/
+  Map2:
+    output: true
+    permalink: /Map2/:path/
 
 # Collections (cont'd)
 defaults:
