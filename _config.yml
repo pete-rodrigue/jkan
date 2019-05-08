@@ -22,6 +22,8 @@ navigation:
     url: /organizations/
   - title: Map
     url: /Map/
+  - title: Map2
+    url: /Map2/
 
 # Collections
 collections:
